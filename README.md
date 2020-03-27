@@ -32,6 +32,6 @@ $> git clone https://github.com/robighetti/skeleton-express-mongo
 
 > Must create mongo instance to run for local development
 
-## Authors
+## Author
 
 - **Rodrigo Bighetti** - _Full-Stack developer_ - [GitHub profile](http://gitlab.ingaia.com.br/rodrigo.bighetti)
