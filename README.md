@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img alt="Skeleton for API's" title="Skeleton" src="" width="200px" />
+  <strong>Skeleton API</strong>
 </h1>
 
 <h3 align="center">
-  Skeleton API 
+  Skeleton API
   <p>by Rodrigo Bighetti</p>
   <p>Skeleton using express and mongoDB to create API</p>
 </h3>
@@ -24,7 +24,7 @@ Write here all details
 ```
 # Run the following command in a local directory to copy the project.
 
-$> git clone https://github.com/robighetti/vdv-backend.git
+$> git clone https://github.com/robighetti/skeleton-express-mongo
 
 ```
 
