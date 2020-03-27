@@ -13,8 +13,8 @@
 The following instructions show the walkthrough of how to copy the project to run on local machine for development and testing purposes.
 
 > On this API is already there User CRUD
-> Jwt autentication
-> Files upload using multer
+> Jwt autentication,
+> Files upload using multer.
 
 ### Prerequisites
 
