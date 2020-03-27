@@ -1,11 +1,9 @@
 import mongoose from 'mongoose';
 
-const mongoURI = 'mongodb://localhost:27017/vdv-mongo';
-
 async function connectWithRetry() {
   mongoose.set('useFindAndModify', false);
   mongoose.Promise = require('bluebird');
-  mongoose.connect(mongoURI, {
+  mongoose.connect(process.env.MONGO_URI, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   });
@@ -15,7 +13,7 @@ async function connectWithRetry() {
 connectWithRetry();
 
 mongoose.connection.on('connected', () => {
-  console.log(`Mongoose connection open to ${mongoURI}`);
+  console.log(`Mongoose connection open to ${process.env.MONGO_URI}`);
 });
 
 mongoose.connection.on('error', (error) => {
