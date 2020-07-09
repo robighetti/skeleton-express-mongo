@@ -28,8 +28,6 @@ The following instructions show the walkthrough of how to copy the project to ru
 
 ### Installing
 
-Write here all details
-
 ```
 # Run the following command in a local directory to copy the project.
 
